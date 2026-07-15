@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMI Lombok Barat - Perhimpunan Mitigasi Bencana Indonesia</title>
+    <meta name="description" content="PMI Lombok Barat - Organisasi terdepan dalam mitigasi dan penanggulangan bencana di Lombok Barat">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <div class="logo-container">
+                    <img src="assets/images/logo.png" alt="PMI Logo" class="logo">
+                    <div class="brand-text">
+                        <h1>PMI Lombok Barat</h1>
+                        <p>Mitigasi Bencana Indonesia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Beranda</a></li>
+                <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+                <li><a href="#program" class="nav-link">Program</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2 class="hero-title">Bersama Membangun Ketahanan Bencana</h2>
+            <p class="hero-subtitle">PMI Lombok Barat berkomitmen untuk memberikan perlindungan dan mitigasi bencana yang terbaik bagi masyarakat</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('program')">Jelajahi Program Kami</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('kontak')">Hubungi Kami</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-placeholder">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="tentang">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Kami</h2>
+                <p>Mengenal PMI Lombok Barat lebih dekat</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Visi & Misi</h3>
+                    <p><strong>Visi:</strong> Menjadi organisasi terdepan dalam mitigasi dan penanggulangan bencana yang profesional dan terpercaya di Lombok Barat.</p>
+                    <p><strong>Misi:</strong></p>
+                    <ul>
+                        <li>Memberikan perlindungan dan bantuan kemanusiaan kepada masyarakat yang terdampak bencana</li>
+                        <li>Meningkatkan kesadaran dan kesiapsiagaan masyarakat terhadap bencana</li>
+                        <li>Membangun kapasitas sumber daya manusia dalam mitigasi bencana</li>
+                        <li>Berkolaborasi dengan berbagai pihak untuk penanggulangan bencana yang efektif</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">1000+</div>
+                        <p>Anggota Aktif</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <p>Program Pelatihan</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10000+</div>
+                        <p>Masyarakat Terlayani</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">24/7</div>
+                        <p>Siap Siaga</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="program">
+        <div class="container">
+            <div class="section-header">
+                <h2>Program Kami</h2>
+                <p>Berbagai program unggulan untuk ketahanan bencana</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Pelatihan Mitigasi</h3>
+                    <p>Program pelatihan komprehensif untuk meningkatkan kemampuan masyarakat dalam menghadapi bencana alam.</p>
+                    <a href="#" class="program-link">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>Tanggap Darurat</h3>
+                    <p>Respons cepat dan efektif dalam situasi bencana dengan tim terlatih dan peralatan memadai.</p>
+                    <a href="#" class="program-link">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Rehabilitasi Pasca Bencana</h3>
+                    <p>Mendampingi dan membantu masyarakat dalam proses pemulihan dan pembangunan kembali pasca bencana.</p>
+                    <a href="#" class="program-link">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-megaphone"></i>
+                    </div>
+                    <h3>Kampanye Kesadaran</h3>
+                    <p>Edukasi publik dan kampanye kesadaran untuk meningkatkan preparedness masyarakat terhadap bencana.</p>
+                    <a href="#" class="program-link">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Kemitraan & Kolaborasi</h3>
+                    <p>Membangun jaringan kerjasama dengan berbagai organisasi untuk efektivitas program.</p>
+                    <a href="#" class="program-link">Pelajari Lebih Lanjut →</a>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Program Kemanusiaan</h3>
+                    <p>Berbagai inisiatif kemanusiaan untuk mendukung kesejahteraan dan keselamatan masyarakat Lombok Barat.</p>
+                    <a href="#" class="program-link">Pelajari Lebih Lanjut →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <h2>Pencapaian Kami</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-value">1,250+</div>
+                    <p>Volunteer Terlatih</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="stat-value">25+</div>
+                    <p>Kabupaten Terjangkau</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="stat-value">100+</div>
+                    <p>Mitra Strategis</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-value">15+</div>
+                    <p>Penghargaan Internasional</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="kontak">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Kami</h2>
+                <p>Kami siap membantu Anda</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Jl. Diponegoro No. 123<br>Mataram, Lombok Barat<br>NTB 83126, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 370 123 4567<br>+62 370 123 4568</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@pmi-lombar.org<br>contact@pmi-lombar.org</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Jumat: 08:00 - 17:00<br>Sabtu & Minggu: 09:00 - 15:00</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>PMI Lombok Barat</h4>
+                    <p>Organisasi nirlaba yang berkomitmen pada mitigasi dan penanggulangan bencana untuk kesejahteraan masyarakat.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu Cepat</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="#program">Program</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PMI Lombok Barat. Semua hak dilindungi. | <a href="#">Kebijakan Privasi</a> | <a href="#">Syarat Layanan</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
